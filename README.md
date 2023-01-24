@@ -36,7 +36,7 @@ This is the command line interface to interact with millicast from your terminal
 
 ### Windows
 
-First download the msi installer.
+First, download the msi installer.
 
 Double-Click, follow the instructions.
 
@@ -89,7 +89,7 @@ tar zxvf millicast-cli-1.0.0-Darwin.tar.gz
 
 cd millicast-cli-1.0.0-Darwin
 
-chmod +x install.sh
+sudo chmod +x install.sh
 
 ./install.sh
 
