@@ -6,8 +6,9 @@ This is the command line interface to interact with millicast from your terminal
 
 | Windows | MacOs | Linux |
 | --- | --- | --- | 
-| [x] Win10 | [x] MacOS Catalyna intel | [ ] Ubuntu 18 Deb Package |
-|           | [x] MacOS BigSur intel | [x] Ubuntu 20 Deb Package |
+| [x] Win10 | [x] MacOS Catalyna intel   | [ ] Ubuntu 18 Deb Package |
+|           | [x] MacOS BigSur intel     | [x] Ubuntu 20 Deb Package |
+|           | [x] MacOS Monterey chip M1 |  |
 
 
 ## Features
@@ -52,13 +53,15 @@ Download the debian package.
 
 Then, open a shell and go in your download directory.
 
-Install the package by running : 
+Install the package by running: 
 
 ```bash
 
-sudo apt install ./millicast-cli-1.0-Linux.deb
+sudo apt install ./millicast-cli-1.0.0-Linux.deb
 
 ```
+
+Be sure to update the version to the one you downloaded.
 
 This will install the cli and all its dependencies.
 
@@ -66,7 +69,7 @@ Run ``mccli help`` to check if the installation went well.
 
 Note that if you are using bash, you have the autocompletion available.
 
-To uninstall, run : 
+To uninstall, run: 
 
 ```bash
 
@@ -76,15 +79,15 @@ sudo apt remove millicast-cli
 
 ### Mac
 
-Dowload the tar.gz archive.
+Download the tar.gz archive.
 
-Go into your dowload directory and run : 
+Go into your download directory and run: 
 
 ```zsh
 
-tar zxvf millicast-cli-1.0-Darwin.tar.gz
+tar zxvf millicast-cli-1.0.0-Darwin.tar.gz
 
-cd millicast-cli-1.0-Darwin
+cd millicast-cli-1.0.0-Darwin
 
 chmod +x install.sh
 
@@ -92,11 +95,13 @@ chmod +x install.sh
 
 ```
 
+Be sure to update the version to the one you downloaded.
+
 This will install the cli in ``/usr/local``.
 
 Run ``mccli help`` to check if the installation went well.
 
-To uninstall, run :
+To uninstall, run:
 
 ```zsh
 
