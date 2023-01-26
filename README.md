@@ -89,9 +89,9 @@ tar zxvf millicast-cli-1.0.0-Darwin.tar.gz
 
 cd millicast-cli-1.0.0-Darwin
 
-sudo chmod +x install.sh
+chmod +x install.sh
 
-./install.sh
+sudo ./install.sh
 
 ```
 
